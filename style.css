@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1210px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header {
+    background: #F6F6F9;
+}
+
+
+.logo {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 43px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.kurs-valyuta {
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.valyuta {
+    margin-right: 10px;
+}
+
+.header-right {
+    align-items: center;
+    display: flex;
+}
+
+.iconka {
+    display: flex;
+    align-items: center;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+
+}
+
+.flag {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.type-language {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px;
+    padding-left: 0;
+    color: #535353;
+}
+
+.lupa {
+    background: #FFFFFF;
+    padding: 8px;
+    margin-right: 22px;
+
+}
+
+.btn-1 {
+    background: #C4C4C4;
+    width: 142px;
+    min-height: 42px;
+    border: none;
+}
+
+.btn-2 {
+    padding: 10px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    width: 146px;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-2::before {
+    content: url(./images/telegram.svg);
+    background-position: center;
+    margin-right: 7px;
+}
+
+.btn-2:hover {
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.linklar {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    margin-top: 44px;
+    margin-bottom: 18px;
+    padding: 23px;
+    justify-content: space-around;
+
+}
+
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #515151;
+
+}
+
+.link:hover {
+    color: lightseagreen;
+    transition: 1s;
+    font-size: 20px;
+}
+
+span {
+    color: blue;
+    font-weight: bold;
+}
+
+
+.logo:hover {
+    box-shadow: 10px 20px 30px rgba(165, 235, 52, 0.19);
+    transition: 0.8s;
+    background: rgb(87, 238, 230);
+
+
+}
+
+.main {
+    display: flex;
+    background: #F6F6F9;
+    border-radius: 5px;
+    margin-top: 22px;
+    justify-content: space-between;
+
+}
+
+.part {
+    display: flex;
+    align-items: center;
+}
+
+.covid-info {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+    width: 232px;
+    padding: 42px 0 41px 0;
+}
+
+.covid {
+    margin: 44px 25px 44px 35px;
+}
+
+.mask {
+    margin: 60px 18px 67px 0;
+}
+
+.text-1 {
+    margin: 40px 0 41px 0;
+}
+
+.text-1 h4 {
+    color: red;
+
+}
+
+.smile {
+
+    margin-right: 20px;
+}
+
+.text-2 h4 {
+    color: rgb(41, 202, 41);
+}
+
+.vektor {}
+
+.text-3 {
+    margin-right: 35px;
+    margin-left: 19px;
+}
+
+
+
+/* ***********************SECTION-4*********************** */
+/* ***********************news-left********************** */
+.news-left .nutq {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: inline-block;
+    margin-top: 20px;
+    color: #000000;
+    width: 794px;
+
+
+}
+
+.news-left {
+    margin-top: 17px;
+}
+
+.line {
+    border: 2px solid #E4E4E4;
+    width: 346px;
+
+}
+
+.left-line {
+    width: 794px;
+    margin-top: 20px;
+}
+
+.days {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 14px;
+    color: #7688A4;
+}
+
+.best-news {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #202020;
+    margin-top: 18px;
+    margin-bottom: 11px;
+}
+
+.hashtag {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    word-spacing: 10px;
+    color: #28508E;
+    margin-top: 29px;
+    display: inline-block;
+}
+
+.news-left-top {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 17px;
+    color: #000000;
+
+}
+
+blockquote {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 20px;
+    color: #000000;
+
+}
+
+.calendar {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 14px;
+    margin-bottom: 13px;
+    color: #7688A4;
+
+}
+
+.calendar::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./images/kalendar.svg);
+    width: 14px;
+    min-height: 16px;
+}
+
+/* *********************news-right************************* */
+.article-news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-right {
+    background: #F6F6F9;
+    border-radius: 5px;
+    width: 386px;
+    margin-bottom: 20px;
+    padding: 16px 19px 18px 20px;
+    margin-top: 46px;
+}
+
+
+/* ***********************SECTION-5************************ */
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 18px;
+}
+
+.data {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 11px;
+    color: #6B6D97;
+
+}
+
+.news-1 {
+    margin-bottom: 18px;
+}
+
+.news-1-text {
+    width: 380px;
+}
+
+.news-4-text {
+    width: 320px;
+
+}
+
+.news-2 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.news-3-text {
+    width: 291px;
+
+}
+
+.article {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #202020;
+
+}
+
+.article:hover {
+    color: blue;
+}
+
+.news-5 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.section-5-top {
+    margin-top: 16px;
+}
+
+
+
+/* **************FOOTER************ */
+.footer {
+    background: #295093;
+    margin-top: 38px;
+
+}
+
+.last-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 18px;
+    color: #FFFFFF;
+    background: #133C82;
+    border-radius: 5px;
+    padding: 9px 12px;
+}
+
+.last-top p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+}
+
+.last-text {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.bigline {
+    background: #133C82;
+    width: 1200px;
+    height: 3px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.btn-3 {
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    width: 132px;
+    color: #295093;
+    border: none;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px
+}
+
+.btn-3::before {
+    content: url(./images/blue-tg.svg);
+    background-position: center;
+    margin-right: 7px;
+}
+
+.about-company {
+    width: 365px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.last-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reklama {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+}
+
+.komanda {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+    margin-right: 200px;
+
+}
+
+.reklama li {
+    padding: 7px;
+}
+
+.komanda li {
+    padding: 7px;
+}
+
+.about-company .sayt {
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+
+}
+
+.footer-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+}
